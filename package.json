@@ -18,6 +18,7 @@
     "eject": "react-scripts eject",
     "lint": "node ./scripts/eslint.js",
     "type:check": "node ./scripts/typecheck.js",
+    "test:unit": "react-scripts test",
     "test:e2e": "node ./scripts/e2e.test.js"
   },
   "eslintConfig": {
