@@ -18,9 +18,9 @@ function App() {
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           Learn React
         </a>
+        <h2>value: {counter}</h2>
+        <button onClick={onIncrement}>increment</button>
       </header>
-      <h2>value: {counter}</h2>
-      <button onClick={onIncrement}>increment</button>
     </div>
   );
 }
