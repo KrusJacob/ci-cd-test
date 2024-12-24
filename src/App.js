@@ -1,13 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { useState } from "react";
+import Counter from "./components/Counter";
 
 function App() {
-  const [counter, setCounter] = useState(0);
-
-  const onIncrement = () => {
-    setCounter((prev) => prev + 1);
-  };
   return (
     <div className="App">
       <header className="App-header">
@@ -18,8 +13,7 @@ function App() {
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           Learn React
         </a>
-        <h2>value: {counter}</h2>
-        <button onClick={onIncrement}>increment</button>
+        <Counter />
       </header>
     </div>
   );
